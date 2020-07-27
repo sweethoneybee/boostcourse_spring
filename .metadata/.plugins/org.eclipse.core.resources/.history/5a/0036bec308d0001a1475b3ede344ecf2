@@ -1,0 +1,16 @@
+package kr.or.connect.daoexam.dao;
+
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import kr.or.connect.daoexam.dto.Role;
+
+@Repository
+public class RoleDao {
+	private NamedParameterJdbcTemplate jdbc;
+	private RowMapper<Rolee> rowMapper = BeanPropertyRowMapper.newInstance(Role.class);
+	
+	
+}
