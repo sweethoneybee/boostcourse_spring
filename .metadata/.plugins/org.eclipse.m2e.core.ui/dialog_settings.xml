@@ -26,12 +26,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="kr.or.connect.mvcexam"/>
 			<item value="kr.or.connect.daoexam"/>
 		</list>
 		<list key="groupId">
 			<item value="kr.or.connect"/>
 		</list>
 		<list key="artifactId">
+			<item value="mvcexam"/>
 			<item value="daoexam"/>
 		</list>
 		<list key="projectNameTemplate">
